@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "B_Category"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.6"
   spec.summary      = "Bccc"
 
   # This description is used to generate tags and improve search results.
@@ -64,7 +64,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "8.0"
+  spec.platform     = :ios, "10.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -105,7 +105,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = ['Images/*.png','Sounds/*']
+  # spec.resources = ['Images/*.png','Sounds/*']
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

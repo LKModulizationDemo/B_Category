@@ -19,6 +19,8 @@
 		A9436771291CDED800643F66 /* B_CategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9436770291CDED800643F66 /* B_CategoryUITests.m */; };
 		A9436773291CDED800643F66 /* B_CategoryUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9436772291CDED800643F66 /* B_CategoryUITestsLaunchTests.m */; };
 		A9436783291CE2FA00643F66 /* CTMediator+B.m in Sources */ = {isa = PBXBuildFile; fileRef = A9436782291CE2FA00643F66 /* CTMediator+B.m */; };
+		A9436804292211E500643F66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9436803292211E500643F66 /* UIKit.framework */; };
+		A9436806292211EC00643F66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9436805292211EC00643F66 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		A9436772291CDED800643F66 /* B_CategoryUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = B_CategoryUITestsLaunchTests.m; sourceTree = "<group>"; };
 		A9436781291CE2FA00643F66 /* CTMediator+B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+B.h"; sourceTree = "<group>"; };
 		A9436782291CE2FA00643F66 /* CTMediator+B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+B.m"; sourceTree = "<group>"; };
+		A9436803292211E500643F66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9436805292211EC00643F66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				11567527F2F1926DD9DEE75C /* libPods-B_Category.a in Frameworks */,
+				A9436806292211EC00643F66 /* Foundation.framework in Frameworks */,
+				A9436804292211E500643F66 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +174,8 @@
 		CC13B58CA4BDA72B23F3A04F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A9436805292211EC00643F66 /* Foundation.framework */,
+				A9436803292211E500643F66 /* UIKit.framework */,
 				3C3A616A41022EAE0F55E969 /* libPods-B_Category.a */,
 			);
 			name = Frameworks;
@@ -515,6 +523,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -543,6 +552,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
