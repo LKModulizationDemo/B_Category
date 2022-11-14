@@ -1,20 +1,16 @@
 PODS:
   - CTMediator (46)
-  - HandyFrame (1.2.0)
 
 DEPENDENCIES:
   - CTMediator
-  - HandyFrame
 
 SPEC REPOS:
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - CTMediator
-    - HandyFrame
 
 SPEC CHECKSUMS:
   CTMediator: f1cf58d509fb3192086c367711f039efd769b907
-  HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
 
-PODFILE CHECKSUM: c20c00215456b184c2a977bcf4213ba0cf81dfb7
+PODFILE CHECKSUM: 01b85cc4869657f0d2fee236d371ecfba388cc6b
 
 COCOAPODS: 1.11.3

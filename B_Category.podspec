@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "B_Category"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "Bccc"
 
   # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   # spec.description  = <<-DESC
   #                  DESC
 
-  spec.homepage     = "git@github.com:LKModulizationDemo/B_Category.git"
+  spec.homepage     = "https://github.com/LKModulizationDemo/B_Category.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "git@github.com:LKModulizationDemo/B_Category.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/LKModulizationDemo/B_Category.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -134,5 +134,5 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
   spec.dependency "CTMediator"
-
+  # spec.dependency "HandyFrame"
 end

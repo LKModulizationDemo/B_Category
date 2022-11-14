@@ -10,7 +10,7 @@ target 'B_Category' do
   # use_frameworks!
  
   # Private Pods
-  pod 'HandyFrame'	
+#  pod 'HandyFrame'	
   pod 'CTMediator'
 
 end
